@@ -5,13 +5,15 @@
     <link href='https://fonts.googleapis.com/css?family=Oxygen:300,400,700' rel='stylesheet' type='text/css'>
       <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href="css/main.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="img/downres.ico">
     <script src="js/vendor/angular.min.js"></script>
+
   </head>
   <body ng-app="BlueBombApp">
     <div class="header">
       <div class="container">
         <!-- <h3 style="color: white">BlueBomb</h3> -->
-        <h3><a href=""><span><a class="" href="index.html">Home</a></span> <span><a class="d" href="about.html">About</a></span> <span><a class="d sel" href="project.html">Project</a></span> <span><a class="d" href="">Contact</a></span> </a></h3>
+        <h3><a href=""><span><a class="" href="index.html">{{ "home" | uppercase }}</a></span> <span><a class="d" href="about.html">{{ "about" | uppercase }}</a></span> <span><a class="d sel" href="project.html">{{ "project" | uppercase }}</a></span> <span><a class="d" href="">{{ "contact" | uppercase }}</a></span> </a></h3>
       </div>
     </div>
 

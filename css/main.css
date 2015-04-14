@@ -1,5 +1,5 @@
 html, body {
-    background: #1976D2; 
+    background: #fff; /* 1976D2 */
     font-family:"Oxygen"; 
     font-weight:300; 
     margin: 0;
@@ -13,7 +13,7 @@ html, body {
 }
 
 .header {
-    background: #1565C0;
+    background: #1976D2; /* 1565C0 */
 }
 
 .header .i {
@@ -47,7 +47,7 @@ html, body {
 }
 
 .main .description {
-    color: #fff;   
+    color: #1976D2;  
 }
 
 .main ul, .main .i {
