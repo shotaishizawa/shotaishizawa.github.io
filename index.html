@@ -1,88 +1,177 @@
-<!doctype html>
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-  <head>
-    <link href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css" rel="stylesheet" />
-    <link href='https://fonts.googleapis.com/css?family=Oxygen:300,400,700' rel='stylesheet' type='text/css'>
-      <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link href="css/main.css" rel="stylesheet" />
-    <link rel="shortcut icon" href="img/downres.ico">
-    <script src="js/vendor/angular.min.js"></script>
-    <title>BlueBomb</title>
-  </head>
-  <body ng-app="BlueBombApp">
-    <div class="header">
-      <div class="container">
-        <!-- <h3 style="color: white">BlueBomb</h3> -->
-        <h3><a href=""><span><a class="sel" href="index.html">{{ "home" | uppercase }}</a></span> <span><a class="d" href="about.html">{{ "about" | uppercase }}</a></span> <span><a class="d" href="project.html">{{ "project" | uppercase }}</a></span> <span><a class="d" href="">{{ "contact" | uppercase }}</a></span> </a></h3>
-      </div>
-    </div>
+	<head>
+		<title>BlueBomb</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="css/style.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body class="landing">
 
-    <div class="main" ng-controller="MainController">
-      <div class="container">
-        <div class="content">
-          <div class="row">
-            
-            <div class="col-md-3" class="series_img">
-            	<img style="" width="" height="" src="img/downres.png">
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
 
-            </div>
-            
-            <div class="col-md-6">
-              <h1 class="name">{{  }}</h1>
-              
-              <h2 class="slg"></h2>
-              <p class="name">{{  }}</p>
-            </div>
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">BlueBomb</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#" class="menuToggle"><span>Menu</span></a>
+									<div id="menu" style="background: #03A9F4">
+										<ul >
+											<li><a href="index.html">Home</a></li>
+											<li><a href="generic.html">Project</a></li>
+											<li><a href=".html">Dev Panel</a></li>
+											<!-- <li><a href="#"><i class="fa fa-sign-in"></i> sign-in</a></li>
+											<li><a href="#"><i class="fa fa-sign-out"></i> sign-out</a></li> -->
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
 
-         <!--    <div class="col-md-3">
-              <ul class="list-group">
-                <li class="list-group-item"><span>Date:</span>{{ website.datetime | date }}</li>
-                <li class="list-group-item"><span>On air:</span>Wednesday</li>
-                <li class="list-group-item"><span>Time:</span>9:00 PM</li>
-                <li class="list-group-item"><span>Season:</span>{{ website.season }}</li>
-                <li class="list-group-item"><span>Genre:</span>{{ website.genre }}</li>
-              </ul>
-            </div> -->
-            
-          </div>
-        </div>
-      </div>
-    </div>
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<h2>blueBomb</h2>
+							<p>Production</p>
+							<ul class="actions">
+								<li><a href="#" class="button special" style="background: #2196F3">Activate</a></li>
+							</ul>
+						</div>
+						<a href="#one" class="more scrolly">Learn More</a>
+					</section>
 
-    <div class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <h3>Contact Info</h3>
-            <ul>
-              <li><a href="">Shota Ishizawa: CEO</a></li>
-              <li><a href="">Random Person: Co-CEO</a></li>
-              <li><a href="">Yehuda Lelah: DEV</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3">
-            <h3>Social Media</h3>
-            <ul>
-              <li><a href="" class="tw">Twitter</a></li>
-              <li><a href="">Youtube</a></li>
-              <li><a href="">Google+</a></li>
-              <li><a href="https://www.facebook.com/bluebombapps">Facebook</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3">
-            <h3>Legal Documents</h3>
-            <ul>
-              <li><a href="">Code of Condunct</a></li>
-              <li><a href="">Terms and Condition</a></li>
-              <li><a href="">Company Legal Form</a></li>
-            </ul>
-        </div>
-      </div>
-    
-    <!-- Modules -->
-    <script src="js/app.js"></script>
+				<!-- One -->
+					<section id="one" class="wrapper style1 special" style="background: #03A9F4">
+						<div class="inner" >
+							<header class="major">
+								<h2>About BlueBomb<br />
+								</h2>
+								<p>BlueBomb was founded in early 2015 with a simple mission, produce compelling content. BlueBomb is a company that focuses on content publication through various outlets such as app development, web development, and video production.<br />
+								Our core philosophy is to create content that people will love, and create content that fits into your lifestyle. Our quest for excellence is evident in our UI/UX design language for our apps and sites.</p>
+							</header>
+							<ul class="icons major">
+								<li><span class="icon fa-diamond major style1"><span class="label">Lorem</span></span></li>
+								<li><span class="icon fa-diamond major style2"><span class="label">Ipsum</span></span></li>
+								<li><span class="icon fa-diamond major style3"><span class="label">Dolor</span></span></li>
+							</ul>
+						</div>
+					</section>
 
-    <!-- Controllers -->
-    <script src="js/controllers/MainController.js"></script>
-  </body>
+				<!-- Two -->
+					<section id="two" class="wrapper alt style2" style="background: #2196F3">
+						<section class="spotlight">
+							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
+								<h2>Shota<br />
+								Ishizawa</h2>
+								<p>Shota, the founder of Bluebomb, has an extensive history in content creation. For nearly 4 years, Shota has been working with content creators on Youtube, from FreddieW to Strawburry17. After his falling out with a Youtube group he worked with for 2 years, Shota moved on to UI/UX design, and producing content via creating apps and websites.</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
+								<h2>Ethan<br />
+								Lee</h2>
+								<p>Ethan began his ventures into game development since middle school and worked with Flash and ActionScript until moving on to cocos2d games. After working on an app EraserEscape, he fell in love with web development. He used his skills to create social networks for schools (Nest Communities), study tools (FlashQuiz and now Livetutor), and MUN management software (currently working on, called Operative). All of those were built for specific needs as they arose for people around him, but now he’s working with us to create apps and communities that reach a broader audience</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
+								<h2>Yehuda<br />
+								Lelah</h2>
+								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+							</div>
+						</section>
+					</section>
+
+				<!-- Three -->
+					<section id="three" class="wrapper style3 special">
+						<div class="inner">
+							<header class="major">
+								<h2>BlueBomb's Philosophy</h2>
+								<p>At BlueBomb focus on our craftsmanshp simplistic yet engaging design and user interface<br />
+								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+							</header>
+							<ul class="features">
+								<li class="icon fa-terminal">
+									<h3>Precison</h3>
+									<p></p>
+								</li>
+								<li class="icon fa-simplybuilt">
+									<h3>Simplicity</h3>
+									<p></p>
+								</li>
+								<li class="icon fa-heart-o">
+									<h3>Warmth</h3>
+									<p></p>
+								</li>
+								<li class="icon fa-eye">
+									<h3>Focus</h3>
+									<p></p>
+								</li>
+								<li class="icon fa-code">
+									<h3>Craft</h3>
+									<p></p>
+								</li>
+								<li class="icon fa-flag-o">
+									<h3>Engagement</h3>
+									<p></p>
+								</li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- CTA -->
+					<section id="cta" class="wrapper style4">
+						<div class="inner">
+							<header>
+								<!-- Change the width and height values to suit you best -->
+<div class="typeform-widget" data-url="https://yuda.typeform.com/to/ohCVMo" data-text="Contact Form" style="width:100%;height:500px;"></div>
+<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+    <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"></div>
+
+							</header>
+							<ul class="actions vertical">
+								<li><a href="#" class="button fit special">Activate</a></li>
+								<li><a href="#" class="button fit">Learn More</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; BlueBomb</li><li>Developer: <a href="http://yehudalelah.tk">Yehuda Lelah</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="js/jquery.min.js"></script>
+			<script src="js/jquery.scrollex.min.js"></script>
+			<script src="js/jquery.scrolly.min.js"></script>
+			<script src="js/skel.min.js"></script>
+			<script src="js/init.js"></script>
+
+	</body>
 </html>
